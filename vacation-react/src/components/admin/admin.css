@@ -1,0 +1,74 @@
+.vacation {
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    border: 3px solid skyblue;
+  }
+
+  .edit_buttons{
+      display: flex;
+  }
+
+  #edit{
+background-color: aquamarine;
+cursor: pointer;
+  }
+
+  #new{
+    background-color: yellow;
+    cursor: -webkit-grabbing;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin: 12px;
+      }
+
+  #delete{
+      background-color: brown;
+      cursor: grab;
+}
+
+#delete:hover,
+#edit:hover,
+#new:hover{
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+.editPage{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 40px;
+}
+
+#login_name{
+  font-size: 35px;
+color:rgb(110, 121, 223);
+
+}
+  .logInOut{
+    border: 2px solid blue;
+    position: absolute;
+    line-height: 1px;
+  }
+  .searchBar{
+    display: flex;
+    justify-content: center;
+  }
+/*  
+.font {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+  } */
+  
+  /* #dest {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+  } */
+  

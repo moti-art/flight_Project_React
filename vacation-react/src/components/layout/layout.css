@@ -1,0 +1,37 @@
+.layout {
+    margin:0;
+    padding:0;
+    min-height: 100%;
+    border: 2px solid black;
+    background-color: lightgreen;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 10px  10px;
+    background-color: cornflowerblue;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: 10% 85% 5%; 
+}
+
+.layout> * {
+    border: 2px solid black;
+   
+}
+
+.layout>header, footer {
+    grid-column: span 12;
+    background-color: cadetblue;
+}
+
+.layout>aside {
+    background-color: powderblue;
+    grid-column: span 2;
+}
+
+.layout>main {
+
+    grid-column: span 10; 
+    background-color: aquamarine; 
+     
+} 
+

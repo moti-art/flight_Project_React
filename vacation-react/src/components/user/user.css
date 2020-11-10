@@ -1,0 +1,12 @@
+#login_name{
+    font-size: 25px;
+  color:rgb(110, 121, 223);
+  
+  
+  }
+    .logInOut{
+        border: 2px solid blue;
+        position: absolute;
+        line-height: 1px;
+  
+    }
