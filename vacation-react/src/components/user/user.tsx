@@ -40,16 +40,11 @@ export default class user extends Component<any, User> {
   }
 
   public searchByDates = () => {
-    // console.log(+this.state.departDate + "===")
-// let date1 = new Date(this.state.departDate);
-// let date2 = new Date(this.state.returnDate);
-// let checkdate1;
-// let checkdate2;
+
 let arr=[];
 let item={};
       for (var i = 0; i < this.state.vacation.length; i++) {
-        //  checkdate1 = new Date(this.state.vacation[i].startDate)
-        //  checkdate2 = new Date(this.state.vacation[i].endDate)
+      
              if (this.state.vacation[i].description.toLowerCase().includes(this.state.keyWord) )   {
                  item = this.state.vacation[i];
                  arr.push(item)
