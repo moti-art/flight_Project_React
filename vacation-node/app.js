@@ -16,5 +16,5 @@ server.use(express.json());
 server.use("/users", usersController);
 server.use("/vacations", vacationsController);
 // server.use(errorHandler);
-
-server.listen(3001, () => console.log("Listening on http://localhost:3001"));
+var port = process.env.port || 3001;
+server.listen(port, () => console.log("Listening on http://localhost:3001"));
