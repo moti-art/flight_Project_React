@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,6 @@
     "@material-ui/pickers": "^3.2.10",
     "@types/date-fns": "^2.6.0",
     "axios": "^0.20.0",
-    "cors": "^2.8.5",
     "date-fns": "^2.0.0-beta.5",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
