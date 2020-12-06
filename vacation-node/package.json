@@ -2,7 +2,7 @@
   "name": "Vacation-301678975",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "start": "node app.js"
   },
